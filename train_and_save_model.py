@@ -10,10 +10,14 @@ from datetime import datetime
 # Download necessary data - Iris data from sklearn library
 # We define a function to download the data
 def download_data():
-  from sklearn.datasets import load_iris
-  iris = load_iris()
-  features = pd.DataFrame(iris.data, columns=iris.feature_names)
-  target = pd.Series(iris.target)
+  #from sklearn.datasets import load_iris
+  from sklearn.datasets import load_wine
+  #iris = load_iris()
+  wine = load_wine()
+  #features = pd.DataFrame(iris.data, columns=iris.feature_names)
+  features = pd.DataFrame(wine.data, columns=wine.feature_names)
+  #target = pd.Series(iris.target)
+  target = pd.Series(wine.target)
   return features, target
 
 # Define a function to preprocess the data
