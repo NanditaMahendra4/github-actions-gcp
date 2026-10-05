@@ -3,7 +3,7 @@
 ## Overview
 Welcome to the "GitHub Actions and GCP Connections" beginner lab! In this lab, you will learn how to automate a machine learning workflow using GitHub Actions and Google Cloud Platform (GCP). By the end of the lab, you will understand how to connect GitHub Actions to GCP, allowing you to automate the process of training a machine learning model and uploading the results to Google Cloud Storage (GCS).
 
-The provided project includes a simple machine learning model (RandomForestClassifier) trained on the Iris dataset. Your focus will be on setting up the cloud environment and automating the workflow using GitHub Actions.
+The provided project includes a simple machine learning model (Logistic Regression) trained on the Wine dataset. Your focus will be on setting up the cloud environment and automating the workflow using GitHub Actions.
 
 ## Learning Objectives
 By completing this lab, you will:
